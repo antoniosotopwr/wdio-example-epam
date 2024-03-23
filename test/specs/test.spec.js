@@ -4,6 +4,6 @@ describe("Test suite", () => {
         const pageTitle = await browser.getTitle();
         console.log(pageTitle);
 
-        expect(pageTitle).toEqual("Reddit - Explora lo que gustes");
+        expect(pageTitle).toEqual("Reddit - Explora lo que quieras");
     })
 })
